@@ -1,0 +1,106 @@
+\<!doctype html>
+<html lang="pt-br">
+	
+	<head>
+		<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet">
+		<script src="script.js"></script>
+
+		<title>Quero Trampo</title>
+	</head>
+
+	<body>
+		<div class="cabecalho">
+			<a href="onde.html">
+				<div class="return"><img alt="Retornar" src="move-to-previous.png"></div>
+			</a>	
+			<a href="index1.html">
+				<img alt="Logo" src="Logo.png">
+			</a>
+		</div>
+
+		<h1>Preencha as informações abaixo para montarmos seu currículo</h1>
+
+		<form>
+		  <p>Nome Completo:</p>
+		  <input type="text" name="firstname">
+
+  		  <p>Data de nascimento:</p>
+		  <input type="date" name="data">
+
+  		  <p>Estado Civil:</p>
+		  <input type="text" name="estado">
+
+  		  <p>Sexo:</p>
+		  <input type="radio" name="gender" value="male" checked> Masculino
+		  <input type="radio" name="gender" value="female"> Feminino
+  		  <input type="radio" name="gender" value="other"> Outro
+
+  		  <p>Endereço:</p>
+		  <input type="text" name="endereço">
+
+		  <p>Email:</p>
+		  <input type="text" name="email">
+
+		  <p>Telefone:</p>
+		  <input type="text" name="telefone">
+
+  		  <p>Áreas de interesse</p>	
+		  <select name="projetos">
+		    <option value="administração">Administração</option>
+		    <option value="carpiteiro">Carpintaria</option>
+		    <option value="Educação">Educação</option>
+		    <option value="Limpeza">Limpeza</option>
+		    <option value="Idosos">Secretatiado</option>
+		    <option value="serviços gerais">Serviços Gerais</option>
+		    <option value="Outras">Outras</option>
+		    <p><input type="text" placeholder=" Se outra, qual?" name="login"></p>
+		  </select>
+		  
+		  <p>Experiências pofissionais:</p>
+			  <input type="text" placeholder=" Nome da Empresa" name="empresa"><br>
+			  <input type="text" placeholder=" Cargo" name="empresa"><br>
+ 		  <div class="halfInput">
+			  <input type="text" placeholder=" Tempo de experiência" name="tempo"><br>	
+		  </div>
+		  	<div class="add">
+				<img alt="compartilhar" src="add-square-button.png">
+			</div>
+
+		<p>Até que ano da escola você estudou? </p>
+			  <input type="text" name="ano">
+
+
+		  <p>Habilidades:</p>
+			  <input type="text" name="habilidades"><br>
+		  		<div class="add">
+					<img alt="compartilhar" src="add-square-button.png">
+				</div>
+
+		  <p>Redes socias:</p>
+		  <input type="text" name="redes">
+
+  		  <p>Interesses:</p>
+		  <div class="subtopico">
+		  	<p>Salário</p>
+			<p><input type="text" placeholder=" Exemplo: R$1000,00" name="salario"></p>
+			<p>Quantas horas por dia deseja trabalhar?</p>
+			<p><input type="text" placeholder=" Exemplo: 8 horas" name="horas"></p>
+			<p>Distância máxima até o emprego</p>
+			<p><input type="text" placeholder=" Exemplo: 20 km" name="km"></p>
+		  </div>	
+
+
+
+			<div class="botao">
+				<a href="CurriculoExemplo.html">
+					<button type="button" class="btn btn-lg btn-light">Gerar Currículo!</button>
+				</a>
+			</div>
+		</form>
+
+
+	</body>
+
+</html>
+

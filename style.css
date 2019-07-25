@@ -1,0 +1,704 @@
+body{
+	background-color: #2e67b3;
+	min-width: 310px;
+	/*overflow:hidden;*/
+	overflow:scroll;
+    overflow-x:hidden;
+    font-family: DokChampa, Calibri;
+}
+
+h1{
+	text-align: center;
+	color:white;
+	font-size: 4em;
+}
+
+.card1{
+	background-color: #75d7ae;
+	position:relative;
+	height:100%;
+	width:100%;
+	padding-top: 13rem;
+	padding-bottom: 13rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+.card2{
+	background-color: #65ba97;
+	height:50%;
+	width:100%;
+	padding-top: 13rem;
+	padding-bottom: 13rem;
+	text-align: center;
+}
+
+.card4-1{
+	background-color: #4f8bdc;
+	position:relative;
+	height:100%;
+	width:100%;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.card4-1 img{
+	width: 130px;
+	height: 130px;
+}
+
+.card4-2{
+	background-color: #2e67b3;
+	height:100%;
+	width:100%;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+.card4-2 img{
+	width: 130px;
+	height: 130px;
+}
+
+.card4-3{
+	background-color: #4f8bdc;
+	position:relative;
+	height:100%;
+	width:100%;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.card4-3 img{
+	width: 130px;
+	height: 130px;
+}
+
+.card3-1{
+	background-color: #4f8bdc;
+	position:relative;
+	height:100%;
+	width:100%;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.card3-1 img{
+	width: 130px;
+	height: 130px;
+}
+
+.card3-2{
+	background-color: #2e67b3;
+	height:100%;
+	width:100%;
+	padding-top: 5.5rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.card3-2 img{
+	width: 140px;
+	height: 140px;
+}
+
+
+.card1 h2,.card2 h2, .card4-1 h2, .card4-2 h2, .card4-3 h2,.card3-1 h2, .card3-2 h2,.card1-noimage h2, .card2-noimage h2{
+	color:white;
+	font-size: 4em;
+}
+
+.card1-noimage{
+	background-color: #4f8bdc;
+	position:relative;
+	padding-top: 15.5rem;
+	padding-bottom: 15.5rem;
+	margin-top: 0;
+	text-align: center;
+}
+
+.card2-noimage{
+	background-color: #2e67b3;
+	padding-top: 15.5rem;
+	padding-bottom: 15.5rem;
+	text-align: center;
+}
+
+.cards{
+	padding-top: 6rem;
+
+}
+
+.cadastre{
+	color:white;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 8rem;
+	line-height: 1rem;
+}
+
+.cadastre a p{
+	color:white;
+	text-decoration: underline;
+}
+
+.link{
+	color:white;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 1rem;
+	line-height: 1rem;
+}
+
+.link a p{
+	color:white;
+	text-decoration: underline;
+}
+
+.cards a{
+	text-decoration: none;
+}
+
+.cabecalhocentral img{
+	padding-top: 3rem;
+	width:316px;
+	height: 223px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	margin-top: 8rem;
+	text-align: center;
+}
+
+.logo img{
+	width:743px;
+	height:572px;
+}
+
+.entrar img{
+	width:250px;
+	height:100px;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.emprega img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4rem;
+	width:250px;
+	height:237px;
+}
+
+.cabecalho{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabecalho img{
+	margin-top: 2.5rem;
+	margin-right: 2rem;
+	width:190px;
+	height:140px;
+}
+
+.return img {
+	width: 150px;
+    height: 150px;
+}
+
+.botao {
+	text-align:center;
+	margin-top:2rem;
+	color:#2e67b3;
+}
+
+button{
+	height: 5rem;
+	width: 30rem;
+	font-size: 3rem;
+	border-radius: 0.8rem;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+	background-color: white;
+	text-align: center;
+	color:#2e67b3;
+	box-shadow: 0.3rem 0.3rem 0.5rem #2e67b3;
+	font-weight: bold;
+}
+
+.videos{
+
+}
+
+form{
+	background-color: #ebf0ea;
+	padding: 1rem 2rem 5rem 2rem;
+	color:#2e67b3;
+	margin-bottom: 4rem;
+	font-size: 3rem;
+	margin:4rem 1rem 3rem 1rem;
+	font-weight: bold;
+	border-radius: 1rem;
+}
+
+form input[type=radio]{
+	width:5rem;
+	height: 3rem;
+	font-size: 2.5rem;
+	color:#2e67b3;
+}
+
+input[type=text]{
+	width:54rem;
+	height: 3rem;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #2e67b3;
+	margin-bottom: 1rem;
+}
+.halfInput input[type=text]{
+	width:24rem;
+	height: 3rem;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #2e67b3;
+	margin-top: 0.5rem;
+
+}
+form p {
+	font-size: 3rem;
+	height: 2rem;
+	color:#2e67b3;
+}
+
+form select {
+	width:54rem;
+	height: 3rem;
+	border-radius: 0.5rem;
+	font-size: 2rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #2e67b3;
+	color:#14191f;
+	background-color: white;
+	margin-bottom: 1rem;
+}
+
+input[type=date]{
+	width:54rem;
+	height: 3rem;
+	font-size: 2.5rem;
+	border-radius: 0.5rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #2e67b3;
+	color:#14191f;
+	background-color: white;
+}
+
+
+.projeto{
+	text-align: center;
+	color:white;
+	font-size: 2.5rem;
+}
+.projeto img{
+	width:58rem;
+	height:43rem;
+}
+.share {
+	background-color: #75d7ae;
+	font-size: 3.1rem;
+	color:white;
+	text-align: center; 
+	margin: 8rem 10rem 0rem 10rem;
+	padding: 0.2rem 0 4rem 0;
+	border-radius: 1rem;
+}
+
+.share.um{
+	margin: 4rem 10rem 0rem 10rem;
+	padding: 0.2rem 0 4rem 0;
+	border-radius: 1rem;
+}
+.share img{
+	margin: 1rem 1rem 1rem 1rem;
+	width: 5rem;
+	height: 5rem;
+}
+
+.share.um img{
+	margin: 1rem 1rem 0rem 1rem;
+	width: 5rem;
+	height: 5rem;
+}
+
+.motivos{
+	color:white;
+	text-align: justify;
+	padding: 0 2rem 0 2rem;
+}
+
+.motivos h3{
+	font-weight: bold;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.motivos p{
+	line-height: 1.5rem;
+}
+
+.motivos img{
+	width:15rem;
+	height:15rem;
+	justify-content: center;
+}
+
+.motivo{
+	margin:2rem 0 2rem 0;
+	border-radius: 1rem;
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+.motivo.um {
+	background-color: #9765ba;
+}
+
+.motivo.dois{
+	background-color: #d0cb49;
+}
+
+.motivo.tres{
+	background-color: #e97768;
+}
+
+.col-md-4{
+	width:30%;
+}
+
+.col-md-8{
+	width:70%;
+	padding-top: 2rem;
+	font-size:4rem;
+}
+
+.login{
+	width:50%;
+	padding: 1rem 2rem 2rem 10rem;
+  	/*display: center;*/
+
+}
+
+.login input{
+	color:#14191f;
+	font-size: 2rem;
+	width:40rem;
+	height: 4rem;
+	margin-bottom: 0;
+}
+
+.incrição{
+	color:white;
+
+}
+
+
+.bairro input[type=text]{
+	width:27rem;
+	height: 3rem;
+}
+
+.bairro{
+	width:50%;
+}
+
+.vao {
+	border-color: white;
+	border-radius: 3rem;
+	margin: 1rem 1rem 1rem 1rem;
+	border-style: dotted;
+	color:white;
+	font-size: 3.5rem;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.vao img{
+	width: 15rem;
+	height: 15rem;
+}
+
+.vao2 {
+	border-color: white;
+	border-radius: 3rem;
+	margin: 1rem 1rem 1rem 1rem;
+	border-style: dotted;
+	color:white;
+	font-size: 2.5rem;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 2rem;
+}
+
+.vao2 img{
+	width: 55rem;
+	height: 75rem;
+}
+
+.numeros{
+	font-size: 2.5rem;
+	text-align: left;
+	padding-left: 2rem;
+}
+
+.botao2{
+	padding-top: 10rem;
+	text-align: center;
+}
+
+.botao2 button{
+	height: 5rem;
+	width: 20rem;
+	text-align:center;
+	font-size: 2.5rem;
+	border-radius: 0.8rem;
+	margin-bottom: 2rem;
+	background-color: #ebf0ea;
+}
+
+.aviso{
+	background-color: white;
+	padding: 25rem 2rem 25rem 2rem;
+	margin: 20rem 5rem 5rem 5rem;
+	text-align: center;
+	color:#65ba97;
+	border-radius: 5rem;
+	font-size: 2rem;
+}
+
+.videorow {
+	color:white;
+	text-align: center;
+	border-radius: 2rem;
+	padding: 2rem 2rem 2rem 2rem;
+	margin: 2rem 1rem 2rem 1rem;
+}
+
+.videorowfake {
+	background-color: #af7db8; 		
+	color:white;
+	text-align: center;
+	border-radius: 2rem;
+	padding: 2rem 2rem 2rem 2rem;
+	margin: 2rem 1rem 2rem 1rem;
+}
+.oportunidade {
+	background-color: #dedede; 		
+	color:black;
+	font-size: 1.4rem;
+	line-height: 1rem;
+	border-radius: 2rem;
+	padding: 1rem 2rem 1rem 2rem;
+	margin: 2rem 1rem 2rem 1rem;
+	text-align: center;
+}
+
+input[type="checkbox"] {
+	width: 10rem;
+	height: 8rem;
+    content: url("coracaoVazio.png");
+}
+input[type="checkbox"]:checked {
+	width: 10rem;
+	height: 8rem;
+    content: url("coracaoCheio.png");
+}
+
+.oportunidade select {
+	width:54rem;
+	height: 3rem;
+	border-radius: 0.5rem;
+	font-size: 2rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #2e67b3;
+	color:#14191f;
+	background-color: white;
+	margin-bottom: 1rem;
+}
+
+.oportunidade h1{
+	color:#2e67b3;
+}
+
+.oportunidade img{
+	width: 450px;
+	height: 450px;
+}
+
+.oportunidade p{
+	text-align: center;
+	color:#0d1e34;
+
+}
+
+.videorowfake img {
+	width: 48rem;
+	height: 29rem;
+}
+
+.videos.col-8 {
+	margin-top: 4rem;
+}
+
+.videorow.um{
+	background-color: #d99348;
+}
+
+.videorow.dois{
+	background-color: #6ed948;
+}
+
+
+.col-4 {
+	padding: 2rem 2rem 2rem 2rem;
+	text-align: justify;
+	font-size: 3rem;
+}
+
+.form1{
+	margin-top:15rem;
+	text-align: center;
+}
+
+.compartilhar{
+	justify-content: flex-end;
+}
+
+.compartilhar img {
+	width: 50px;
+	height: 50px;
+}
+
+.add img {
+	width: 50px;
+	height: 50px;
+	margin-left: 51rem;
+	margin-top: 0.5rem;
+}
+
+.subtopico{
+	margin-left: 2rem;
+}
+
+.subtopico input[type=text]{
+	width:48rem;
+	height: 3rem;	
+}
+
+.subtopico p{
+	font-size: 2.5rem;
+}
+
+.download img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 130px;
+	height: 115px;
+}
+
+.oportunidade h2{
+	font-size: 3rem;
+	color: #2e67b3;
+}
+
+.oportunidade h3{
+	font-size: 6rem;
+	color: #2e67b3;
+
+}
+
+.feedback {
+	background-color: #dedede; 		
+	color:black;
+	font-size: 1.4rem;
+	line-height: 1rem;
+	border-radius: 2rem;
+	padding: 1rem 2rem 1rem 2rem;
+	margin: 2rem 1rem 2rem 1rem;
+	text-align: center;
+}
+
+.feedback h1{
+	color:#2e67b3;
+}
+
+.feedback img{
+	width: 450px;
+	height: 450px;
+}
+
+.feedback p{
+	text-align: center;
+	color:#0d1e34;
+
+}
+
+.feedback h2{
+	font-size: 3rem;
+	color: #2e67b3;
+	text-align: left;
+
+}
+
+.feedback h3{
+	font-size: 6rem;
+	color: #2e67b3;
+
+}
+
+.senhaInput input[type=password]{
+	width:54rem;
+	height: 3rem;
+}
+
+.senhaInput input{
+	width:54rem;
+	height: 3rem;
+	box-shadow: 0.3rem 0.3rem 0.5rem #2e67b3;
+	font-size: 2rem;
+}
+
+.graficos img{
+	width: 800px;
+	height: 575px;
+	margin-bottom: 2rem;
+}
+
+.botaogrande img{
+	width:54rem;
+	height: 10rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+}
+
+.emprega1 img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20rem;
+	width:250px;
+	height:237px;
+}
