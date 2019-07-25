@@ -619,20 +619,20 @@ input[type="checkbox"]:checked {
 
 .oportunidade h2{
 	font-size: 3rem;
+	line-height: 6rem;
 	color: #2e67b3;
 }
 
 .oportunidade h3{
 	font-size: 6rem;
 	color: #2e67b3;
-
 }
 
 .feedback {
 	background-color: #dedede; 		
 	color:black;
-	font-size: 1.4rem;
-	line-height: 1rem;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
 	border-radius: 2rem;
 	padding: 1rem 2rem 1rem 2rem;
 	margin: 2rem 1rem 2rem 1rem;
@@ -641,6 +641,12 @@ input[type="checkbox"]:checked {
 
 .feedback h1{
 	color:#2e67b3;
+}
+
+.feedback h2{
+	color:#2e67b3;
+	text-align: center;
+
 }
 
 .feedback img{
